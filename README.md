@@ -46,7 +46,7 @@ The analysis script requires the following Python libraries:
 
   3. Execute the script from your terminal:
 
-    python load_sales_data.py
+    Pharmaceutical_Sales_Forecasting_and_Market_Intelligencea.py
 
 
 The script will run the entire analysis pipeline, printing its progress to the console and generating all the output plots in the same directory.
