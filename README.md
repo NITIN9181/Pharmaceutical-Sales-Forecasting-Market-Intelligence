@@ -1,4 +1,4 @@
-# **Pharma Sales Analysis & Forecasting**
+# ![**Pharma Sales Analysis & Forecasting**](Images/Heading.png)
 
 ## **Project Overview**
 
@@ -67,7 +67,7 @@ This phase explores the prepared data to identify high-level trends and choose a
 
   * **Analyzes**: salesmonthly.csv
 
-  * **Output**: monthly_sales_trends.png
+  * **Output**: ![monthly_sales_trends.png](Images/monthly_sales_trends.png)
 
   * **Finding**: The sales for drug class N02BE are significantly higher and far more volatile (seasonal) than other classes like M01AB. This identifies N02BE as our high-priority-high-impact product line.
 
@@ -75,7 +75,7 @@ This phase explores the prepared data to identify high-level trends and choose a
 
   * **Analyzes**: salesmonthly.csv (focusing on N02BE)
 
-  * **Output**: seasonal_sales_plot.png
+  * **Output**: ![seasonal_sales_plot.png](Images/seasonal_sales_plot.png)
 
   * **Finding**: N02BE sales are strongly seasonal. Sales peak in the fall and winter (October, December) and hit their lowest point in the summer (June, July). This suggests a link to seasonal ailments (e.g., cold, flu, pain associated with colder weather).
 
@@ -83,7 +83,7 @@ This phase explores the prepared data to identify high-level trends and choose a
 
   * **Analyzes**: saleshourly.csv (focusing on N02BE)
 
-  * **Output**: hourly_sales_plot.png
+  * **Output**: ![hourly_sales_plot.png](Images/hourly_sales_plot.png)
 
   * **Finding**: Sales are not uniform throughout the day. There are two distinct peaks: a large one around 12:00 PM (noon) and a second, even larger peak around 7:00 PM (19:00). This suggests customers visit pharmacies most often during their lunch break and after work.
 
@@ -95,7 +95,7 @@ This phase uses our seasonality finding to build a predictive model.
 
   * **Analyzes**: salesmonthly.csv (N02BE sales data)
 
-  * **Output**: forecast_plot.png
+  * **Output**: ![forecast_plot.png](Images/forecast_plot.png)
 
   * **Finding**: A SARIMA (Seasonal AutoRegressive Integrated Moving Average) model, chosen specifically for its ability to handle seasonality, successfully captures the historical pattern. The model generates a 12-month forecast, predicting the upcoming summer dip and winter recovery, which is crucial for inventory planning.
 
@@ -107,7 +107,7 @@ This phase broadens the scope to see how our main product fits into the entire m
 
   * **Analyzes**: salesmonthly.csv (all drug classes for 2019)
 
-  * **Output**: market_share_2019.png
+  * **Output**: ![market_share_2019.png](Images/market_share_2019.png)
 
   * **Finding**: N02BE is the dominant market leader, responsible for 46.4% of all sales in 2019. This confirms that its performance is critical to the entire business and justifies our deep-dive analysis.
 
@@ -119,7 +119,7 @@ This final phase drills down into daily sales behavior to inform staffing and op
 
   * **Analyzes**: salesdaily.csv (focusing on N02BE)
 
-  * **Output**: weekday_vs_weekend_sales.png
+  * **Output**: ![weekday_vs_weekend_sales.png](Images/weekday_vs_weekend_sales.png)
 
   * **Finding**: On average, sales for N02BE are noticeably higher on weekends than on weekdays. This is a valuable insight, as one might incorrectly assume sales drop when people are not commuting for work.
 
